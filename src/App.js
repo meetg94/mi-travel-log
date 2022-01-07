@@ -8,6 +8,7 @@ function App() {
   const cards = traveldata.map(item => {
     return (
       <TravelCard 
+        key={item.id}
         item={item}
         />
     )
@@ -16,7 +17,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <section className="cards-list">
       {cards}
+      </section>
     </div>
   );
 }
