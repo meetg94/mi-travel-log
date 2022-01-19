@@ -3,7 +3,7 @@ import {MdLocationOn} from 'react-icons/md'
 
 function TravelCard(props) {
     return (
-        
+        <div className="main-container">
         <div className="travel-card">
                 <img src ={`../../Images/${props.item.coverImage}`} className="card-image" />
 
@@ -17,8 +17,8 @@ function TravelCard(props) {
                     <p className="card-title">{props.item.title}</p>
                     <p className="card-date">{props.item.startDate}-{props.item.endDate}</p>                
                     <small className="card-desc">{props.item.description}</small>
-                    
                 </div>
+        </div>
         </div>
     )
 }

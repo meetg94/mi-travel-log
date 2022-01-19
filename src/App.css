@@ -3,6 +3,12 @@
 .App {
   text-align: center;
   justify-content: center;
+  border: 1px solid black;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 3px;
 }
 
 body {
@@ -19,6 +25,7 @@ body {
   top: 0px;
   padding-top: 5px;
   background: #F55A5A;
+  border-radius: 5px;
 }
 
 .nav-text {
@@ -32,15 +39,17 @@ cards-list {
   margin: 0 auto;
 
 }
+.main-container {
+
+}
+
 .travel-card {
   padding: 20px;
   background: white;
   margin: 0 auto;
   border-radius: 5px;
-  width: 550px;
-
   display: flex;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
 }
 
 .card-info {
@@ -53,7 +62,7 @@ cards-list {
 
 .card-image {
   border-radius: 5px;
-  width: 125px;
+  width: 110px;
   height: 168px;
 }
 
